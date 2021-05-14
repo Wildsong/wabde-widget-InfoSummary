@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Alle Features anzeigen",
   "fieldsWarning": "Im Pop-up sind keine Felder definiert. Verwenden Sie die Aktion  \"Bearbeiten \", um die Optionen der Anzeige im Bereich zu definieren.",
   "displayClusterLayer": "Cluster-Symbole nach Schließen des Widgets beibehalten",
-  "invalidSymbolWidthMessage": "Die Symbolauswahl enthält einen Fehler. Beheben Sie diesen vor der Anwendung."
+  "invalidSymbolWidthMessage": "Die Symbolauswahl enthält einen Fehler. Beheben Sie diesen vor der Anwendung.",
+  "sortLabel": "Sortieren",
+  "ascRadioBtnLabel": "Aufsteigend",
+  "descRadioBtnLabel": "Absteigend"
 });

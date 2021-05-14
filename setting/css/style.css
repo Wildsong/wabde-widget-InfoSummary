@@ -645,3 +645,30 @@
   float: left;
   line-height: 0;
 }
+
+.jimu-widget-InfoSummary-setting .esriCTDisplayInlineFlex {
+  display: inline-flex;
+  min-height: 22px;
+}
+
+.jimu-widget-InfoSummary-setting .esriCTMarginRight20 {
+  margin-right: 20px;
+}
+
+.jimu-rtl .jimu-widget-InfoSummary-setting .esriCTMarginRight20 {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.jimu-widget-InfoSummary-setting .esriCTRadioLabel {
+  vertical-align: middle;
+}
+
+.jimu-widget-InfoSummary-setting .esriCTSortOptionsWrapper {
+  padding-left: 5px;
+}
+
+.jimu-rtl .jimu-widget-InfoSummary-setting .esriCTSortOptionsWrapper {
+  padding-right: 5px;
+  padding-left: 0px;
+}

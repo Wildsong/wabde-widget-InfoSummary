@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Visa alla geoobjekt",
   "fieldsWarning": "Inga fält definieras i popupfönstret. Valfritt: Använd redigeringsåtgärden för att definiera panelvisningsalternativen.",
   "displayClusterLayer": "Bevara klustersymboler efter att widgeten stängts",
-  "invalidSymbolWidthMessage": "Symbolväljaren innehåller fel som måste åtgärdas innan tillämpning."
+  "invalidSymbolWidthMessage": "Symbolväljaren innehåller fel som måste åtgärdas innan tillämpning.",
+  "sortLabel": "Sortera",
+  "ascRadioBtnLabel": "Stigande",
+  "descRadioBtnLabel": "Fallande"
 });

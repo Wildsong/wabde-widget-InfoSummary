@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Näytä kaikki kohteet",
   "fieldsWarning": "Yhtään kenttää ei ole määritetty ponnahdusikkunassa. Valinnainen: määritä paneelin näyttöasetukset muokkaustoiminnon avulla.",
   "displayClusterLayer": "Säilytä klusterin symbolit pienoisohjelman sulkemisen jälkeen",
-  "invalidSymbolWidthMessage": "Symbolivalitsin sisältää virheen. Korjaa ennen käyttöä."
+  "invalidSymbolWidthMessage": "Symbolivalitsin sisältää virheen. Korjaa ennen käyttöä.",
+  "sortLabel": "Lajittele",
+  "ascRadioBtnLabel": "Nouseva",
+  "descRadioBtnLabel": "Laskeva"
 });

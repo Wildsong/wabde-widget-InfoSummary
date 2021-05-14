@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Összes vektoros elem megjelenítése",
   "fieldsWarning": "A felugró ablakban nincsenek meghatározva mezők. Ha szeretné, a szerkesztési művelet segítségével megadhatja a panel megjelenítési beállításait.",
   "displayClusterLayer": "A widget bezárása után őrizze meg a klaszterszimbólumokat",
-  "invalidSymbolWidthMessage": "A szimbólumválasztó hibát tartalmaz. A beállítások alkalmazása előtt javítsa a hibát."
+  "invalidSymbolWidthMessage": "A szimbólumválasztó hibát tartalmaz. A beállítások alkalmazása előtt javítsa a hibát.",
+  "sortLabel": "Rendezés",
+  "ascRadioBtnLabel": "Növekvő",
+  "descRadioBtnLabel": "Csökkenő"
 });

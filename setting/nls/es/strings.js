@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Mostrar todas las entidades",
   "fieldsWarning": "No se han definido campos en el elemento emergente. Opcional: use una acción de edición para definir las opciones de visualización del panel.",
   "displayClusterLayer": "Conservar símbolos de clúster tras cerrar el widget",
-  "invalidSymbolWidthMessage": "El selector de símbolos contiene un error; corríjalo antes de aplicarlo."
+  "invalidSymbolWidthMessage": "El selector de símbolos contiene un error; corríjalo antes de aplicarlo.",
+  "sortLabel": "Ordenar",
+  "ascRadioBtnLabel": "Ascendente",
+  "descRadioBtnLabel": "Descendente"
 });

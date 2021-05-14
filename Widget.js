@@ -3261,6 +3261,12 @@ function (BaseWidget,
             //sort and place at legendNode
             var nodes = finalGroupNodes.sort(sortFunction);
             var cE = this.config.countEnabled;
+            //if confing has groupFeaturesSortOrder property and its value is DESC
+            //then reverse array which is sorted in ASC order
+            if (displayOptions && typeof (displayOptions.groupFeaturesSortOrder) !== undefined &&
+              displayOptions.groupFeaturesSortOrder === "DESC") {
+              nodes = nodes.reverse();
+            }
             array.forEach(nodes, function (n) {
               if (cE) {
                 n.countNode.innerHTML = utils.localizeNumber(n.count);
@@ -3286,6 +3292,12 @@ function (BaseWidget,
                 return parseFloat(_a) - parseFloat(_b);
               }
             });
+            //if confing has layerOptionsSortOrder property and its value is DESC
+            //then reverse array which is sorted in ASC order
+            if (displayOptions && typeof (displayOptions.layerOptionsSortOrder) !== undefined &&
+              displayOptions.layerOptionsSortOrder === "DESC") {
+              sortedNodes = sortedNodes.reverse();
+            }
             array.forEach(sortedNodes, function (fdn) {
               domConstruct.place(fdn.node, fdn.updateNode);
             });
@@ -3557,7 +3569,7 @@ function (BaseWidget,
         var cvs = domain.codedValues;
         for (var i = 0; i < cvs.length; i++) {
           var cv = cvs[i];
-          if (cv.code === v) {
+          if (cv.code === v || cv.name == v) {
             return cv.name;
           }
         }

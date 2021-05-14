@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Mostra totes les entitats",
   "fieldsWarning": "No s'han definit camps a la finestra emergent. Opcional: utilitzeu l'acció Edita per definir les opcions de visualització de la subfinestra.",
   "displayClusterLayer": "Preserva els símbols de clúster després de tancar el widget",
-  "invalidSymbolWidthMessage": "El selector de símbols conté un error. Corregiu-lo abans d'aplicar els canvis."
+  "invalidSymbolWidthMessage": "El selector de símbols conté un error. Corregiu-lo abans d'aplicar els canvis.",
+  "sortLabel": "Ordena",
+  "ascRadioBtnLabel": "Ascendent",
+  "descRadioBtnLabel": "Descendent"
 });

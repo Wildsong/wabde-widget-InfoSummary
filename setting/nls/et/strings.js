@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Kuva kõik objektid",
   "fieldsWarning": "Hüpikaknas pole väljasid määratletud. Valikuline: kasutage paneeli kuvamisvalikute määratlemiseks muutmise toimingut.",
   "displayClusterLayer": "Säilita leppemärkide klasterdamine pärast vidina sulgemist",
-  "invalidSymbolWidthMessage": "Leppemärgi valija sisaldab vigu. Parandage need enne rakendamist."
+  "invalidSymbolWidthMessage": "Leppemärgi valija sisaldab vigu. Parandage need enne rakendamist.",
+  "sortLabel": "Sorteeri",
+  "ascRadioBtnLabel": "Kasvav",
+  "descRadioBtnLabel": "Kahanev"
 });

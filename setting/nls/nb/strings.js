@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Vis alle geoobjekter",
   "fieldsWarning": "Ingen felt definert i popup. Valgfritt: Bruk redigeringsfunksjonen til å definere alternativer for panelvisning.",
   "displayClusterLayer": "Behold klyngesymboler etter at miniprogrammet lukkes",
-  "invalidSymbolWidthMessage": "Symbolvelgeren inneholder feil som må rettes opp før bruk."
+  "invalidSymbolWidthMessage": "Symbolvelgeren inneholder feil som må rettes opp før bruk.",
+  "sortLabel": "Sortere",
+  "ascRadioBtnLabel": "Stigende",
+  "descRadioBtnLabel": "Synkende"
 });

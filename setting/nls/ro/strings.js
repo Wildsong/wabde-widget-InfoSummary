@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Afişare toate obiectele spaţiale",
   "fieldsWarning": "Niciun câmp definit în pop-up. Opţional: Utilizaţi acţiunea de editare pentru a defini opţiunile de afişare în panou.",
   "displayClusterLayer": "Păstrați simbolurile de grupare după închiderea widgetului",
-  "invalidSymbolWidthMessage": "Selectorul de simboluri conține o eroare, corectați înainte de aplicare."
+  "invalidSymbolWidthMessage": "Selectorul de simboluri conține o eroare, corectați înainte de aplicare.",
+  "sortLabel": "Sortare",
+  "ascRadioBtnLabel": "Ascendent",
+  "descRadioBtnLabel": "Descendent"
 });

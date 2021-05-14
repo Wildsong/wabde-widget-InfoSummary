@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Exibir Todos os Elementos",
   "fieldsWarning": "Não se encontram definidos campos na janela pop-up. Opcional: Utilize a ação editar para definir opções de exibição do painel.",
   "displayClusterLayer": "Preservar Símbolos do Agrupamento depois de Fechar o Widget",
-  "invalidSymbolWidthMessage": "O seletor de símbolos contém um erro; corrija-o antes de aplicar."
+  "invalidSymbolWidthMessage": "O seletor de símbolos contém um erro; corrija-o antes de aplicar.",
+  "sortLabel": "Ordenar",
+  "ascRadioBtnLabel": "Ascendente",
+  "descRadioBtnLabel": "Decrescente"
 });

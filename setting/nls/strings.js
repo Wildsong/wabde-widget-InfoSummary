@@ -59,7 +59,10 @@ define({
     showAllFeatures: "Show All Features",
     fieldsWarning: "No fields defined in popup. Optional: Use edit action to define panel display options.",
     displayClusterLayer: "Preserve Cluster Symbols after Closing Widget",
-    invalidSymbolWidthMessage: "The symbol chooser contains error please fix before applying."
+    invalidSymbolWidthMessage: "The symbol chooser contains error please fix before applying.",
+    sortLabel: "Sort",
+    ascRadioBtnLabel: "Ascending",
+    descRadioBtnLabel: "Descending"
   }),
   "ar": 1,
   "bs": 1,

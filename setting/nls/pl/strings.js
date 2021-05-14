@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Pokaż wszystkie obiekty",
   "fieldsWarning": "Brak pól zdefiniowanych w oknie podręcznym. Możesz zdefiniować opcje wyświetlania panelu przy użyciu działania edycji.",
   "displayClusterLayer": "Zachowaj symbole klastra po zamknięciu widżetu",
-  "invalidSymbolWidthMessage": "Wybrany symbol zawiera błąd. Usuń go przed zastosowaniem."
+  "invalidSymbolWidthMessage": "Wybrany symbol zawiera błąd. Usuń go przed zastosowaniem.",
+  "sortLabel": "Sortuj",
+  "ascRadioBtnLabel": "Rosnąco",
+  "descRadioBtnLabel": "Malejąco"
 });

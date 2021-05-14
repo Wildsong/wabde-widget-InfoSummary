@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Afficher toutes les entités",
   "fieldsWarning": "Aucun champ n'est défini dans la fenêtre contextuelle. Facultatif : utilisez l'action de mise à jour pour définir les options d'affichage de volet.",
   "displayClusterLayer": "Conserver les symboles d’agrégat après fermeture du Widget",
-  "invalidSymbolWidthMessage": "Le sélecteur de symboles contient une erreur. Corrigez-la avant d’appliquer."
+  "invalidSymbolWidthMessage": "Le sélecteur de symboles contient une erreur. Corrigez-la avant d’appliquer.",
+  "sortLabel": "Trier",
+  "ascRadioBtnLabel": "Croissant",
+  "descRadioBtnLabel": "Décroissant"
 });

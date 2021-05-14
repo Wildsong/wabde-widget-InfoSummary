@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "הצג את כל היישויות",
   "fieldsWarning": "לא הוגדרות שדות בחלון המוקפץ. אופציונלי: השתמש בפעולת עריכה כדי להגדיר אפשרויות תצוגה של הפאנל.",
   "displayClusterLayer": "שמור סמלי אשכול לאחר סגירת ווידג'ט",
-  "invalidSymbolWidthMessage": "בורר הסמלים מכיל שגיאה, תקן לפני החלה."
+  "invalidSymbolWidthMessage": "בורר הסמלים מכיל שגיאה, תקן לפני החלה.",
+  "sortLabel": "מיין",
+  "ascRadioBtnLabel": "עולה",
+  "descRadioBtnLabel": "יורד"
 });

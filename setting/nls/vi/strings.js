@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Hiện Tất cả các đối tượng",
   "fieldsWarning": "Không có trường nào được xác định trong cửa sổ pop-up: Sử dụng thao tác chỉnh sửa để xác định các tùy chọn hiển thị bảng điều khiển.",
   "displayClusterLayer": "Giữ nguyên các Ký hiệu Cụm sau khi Đóng Tiện ích",
-  "invalidSymbolWidthMessage": "Trình lựa chọn ký hiệu có lỗi, vui lòng khắc phục trước khi áp dụng."
+  "invalidSymbolWidthMessage": "Trình lựa chọn ký hiệu có lỗi, vui lòng khắc phục trước khi áp dụng.",
+  "sortLabel": "Sắp xếp",
+  "ascRadioBtnLabel": "Tăng dần",
+  "descRadioBtnLabel": "Giảm dần"
 });

@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Alle objecten weergeven",
   "fieldsWarning": "Geen velden gedefinieerd in popup. Optioneel: Gebruik Bewerken om weergave-opties deelvenster te bepalen.",
   "displayClusterLayer": "Clustersymbolen behouden na het sluiten van de widget",
-  "invalidSymbolWidthMessage": "De symboolkeuze bevat fouten, graag eerst oplossen alvorens toe te passen."
+  "invalidSymbolWidthMessage": "De symboolkeuze bevat fouten, graag eerst oplossen alvorens toe te passen.",
+  "sortLabel": "Sorteren",
+  "ascRadioBtnLabel": "Oplopend",
+  "descRadioBtnLabel": "Aflopend"
 });

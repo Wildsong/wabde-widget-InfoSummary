@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "すべてのフィーチャを表示",
   "fieldsWarning": "ポップアップにフィールドが定義されていません。 オプション: パネル表示オプションを定義するには、編集アクションを使用してください。",
   "displayClusterLayer": "ウィジェットを閉じた後にクラスター シンボルを維持",
-  "invalidSymbolWidthMessage": "シンボル選択にエラーが含まれています。修正してから適用してください。"
+  "invalidSymbolWidthMessage": "シンボル選択にエラーが含まれています。修正してから適用してください。",
+  "sortLabel": "並べ替え",
+  "ascRadioBtnLabel": "昇順",
+  "descRadioBtnLabel": "降順"
 });

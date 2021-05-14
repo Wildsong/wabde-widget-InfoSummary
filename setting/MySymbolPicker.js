@@ -194,6 +194,10 @@ define(['dojo/_base/declare',
         this.own(on(this.rdoCustomIcon, 'change', lang.hitch(this, this._rdoCustomIconChanged)));
         this.own(on(this.rdoGroupField, 'change', lang.hitch(this, this._rdoGroupByFieldChanged)));
         this.own(on(this.rdoGroupRenderer, 'change', lang.hitch(this, this._rdoGroupByRendererChanged)));
+        this.own(on(this.layerOptionsAscRadioBtn, 'change', lang.hitch(this, this._layerOptionsAscRadioChanged)));
+        this.own(on(this.layerOptionsDescRadioBtn, 'change', lang.hitch(this, this._layerOptionsDescRadioChanged)));
+        this.own(on(this.groupOptionsAscRadioBtn, 'change', lang.hitch(this, this._groupOptionsAscRadioChanged)));
+        this.own(on(this.groupOptionsDescRadioBtn, 'change', lang.hitch(this, this._groupOptionsDescRadioChanged)));
       },
 
       _initCheckBoxes: function () {
@@ -359,6 +363,14 @@ define(['dojo/_base/declare',
             }
           }
         }
+        var layerOptionsSortOrder = (fdo && typeof (fdo.layerOptionsSortOrder) !== 'undefined') ?
+          fdo.layerOptionsSortOrder : true;
+        if (layerOptionsSortOrder === "DESC") {
+          this._layerOptionsDescRadioChanged(true);
+        } else {
+          //for backward and for new app by default asc radio will be checked
+          this._layerOptionsAscRadioChanged(true);
+        }
 
         //group options
         this.groupFeaturesEnabled = (fdo && typeof (fdo.groupEnabled) !== 'undefined') ? fdo.groupEnabled : false;
@@ -389,6 +401,15 @@ define(['dojo/_base/declare',
         }
         if (t) {
           this._rdoGroupByFieldChanged(t);
+        }
+
+        var groupFeaturesSortOrder = (fdo && typeof (fdo.groupFeaturesSortOrder) !== 'undefined') ?
+          fdo.groupFeaturesSortOrder : true;
+        if (groupFeaturesSortOrder === "DESC") {
+          this._groupOptionsDescRadioChanged(true);
+        } else {
+          //for backward and for new app by default asc radio will be checked
+          this._groupOptionsAscRadioChanged(true);
         }
       },
 
@@ -792,7 +813,9 @@ define(['dojo/_base/declare',
             groupByRendererOptions: {
               fields: groupByRendererFields,
               values: vals
-            }
+            },
+            layerOptionsSortOrder: this.layerOptionsAscRadioBtn.getValue() ? "ASC" : "DESC",
+            groupFeaturesSortOrder: this.groupOptionsAscRadioBtn.getValue() ? "ASC" : "DESC"
           }
         };
       },
@@ -1251,6 +1274,22 @@ define(['dojo/_base/declare',
           }
         }
         return true;
+      },
+
+      _layerOptionsAscRadioChanged: function (v) {
+        this.layerOptionsAscRadioBtn.set('checked', v);
+      },
+
+      _layerOptionsDescRadioChanged: function (v) {
+        this.layerOptionsDescRadioBtn.set('checked', v);
+      },
+
+      _groupOptionsAscRadioChanged: function (v) {
+        this.groupOptionsAscRadioBtn.set('checked', v);
+      },
+
+      _groupOptionsDescRadioChanged: function (v) {
+        this.groupOptionsDescRadioBtn.set('checked', v);
       }
     });
   });

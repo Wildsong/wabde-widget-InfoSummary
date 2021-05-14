@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "顯示所有圖徵",
   "fieldsWarning": "快顯視窗未定義欄位。選用: 使用編輯動作來定義面板顯示選項。",
   "displayClusterLayer": "關閉 Widget 後保留叢集符號",
-  "invalidSymbolWidthMessage": "符號選擇器包含錯誤，請先修正再套用。"
+  "invalidSymbolWidthMessage": "符號選擇器包含錯誤，請先修正再套用。",
+  "sortLabel": "排序",
+  "ascRadioBtnLabel": "遞增",
+  "descRadioBtnLabel": "降冪"
 });

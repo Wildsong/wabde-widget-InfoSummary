@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "عرض كل المعالم",
   "fieldsWarning": "لا توجد معالم معرفة في العنصر المنبثق. اختياريًا: استخدم إجراءات التحرير لتعريف لوحة خيارات العرض.",
   "displayClusterLayer": "الاحتفاظ برموز المجموعة بعد إغلاق عنصر واجهة المستخدم",
-  "invalidSymbolWidthMessage": "تحتوي أداة اختيار الرمز على خطأ؛ يرجى إصلاحه قبل التطبيق."
+  "invalidSymbolWidthMessage": "تحتوي أداة اختيار الرمز على خطأ؛ يرجى إصلاحه قبل التطبيق.",
+  "sortLabel": "فرز",
+  "ascRadioBtnLabel": "تصاعدي",
+  "descRadioBtnLabel": "تنازليًا"
 });

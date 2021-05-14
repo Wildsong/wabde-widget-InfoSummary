@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Tüm Detayları Göster",
   "fieldsWarning": "Açılır pencerede tanımlı alan yok. İsteğe Bağlı: Panel görüntüleme tercihlerini tanımlamak için düzenleme işlemini kullanın.",
   "displayClusterLayer": "Widget (Araç) Ögesini Kapattıktan sonra Küme Sembollerini Koru",
-  "invalidSymbolWidthMessage": "Sembol seçici hata içeriyor lütfen uygulamadan önce hatayı giderin."
+  "invalidSymbolWidthMessage": "Sembol seçici hata içeriyor lütfen uygulamadan önce hatayı giderin.",
+  "sortLabel": "Sırala",
+  "ascRadioBtnLabel": "Artan",
+  "descRadioBtnLabel": "Azalan"
 });

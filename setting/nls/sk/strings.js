@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Zobraziť všetky prvky",
   "fieldsWarning": "Žiadne stĺpce neboli definované v kontextovom okne. Voliteľné: Použite akciu úpravy na definovanie možností zobrazenia panela.",
   "displayClusterLayer": "Zachovať symboly zhluku po zatvorení widgetu",
-  "invalidSymbolWidthMessage": "Výberovník symbolov obsahuje chybu, prosím, opravte ich pred použitím."
+  "invalidSymbolWidthMessage": "Výberovník symbolov obsahuje chybu, prosím, opravte ich pred použitím.",
+  "sortLabel": "Zoradiť",
+  "ascRadioBtnLabel": "Vzostupne",
+  "descRadioBtnLabel": "Zostupne"
 });

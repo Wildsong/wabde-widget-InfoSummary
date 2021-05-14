@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Tampilkan Semua Fitur",
   "fieldsWarning": "Tidak ada kolom yang ditentukan dalam popup. Opsional: Gunakan tindakan edit untuk menentukan opsi tampilan panel.",
   "displayClusterLayer": "Pertahankan Simbol Kluster setelah Menutup Widget",
-  "invalidSymbolWidthMessage": "Pemilih simbol berisi kesalahan, perbaiki sebelum menerapkan."
+  "invalidSymbolWidthMessage": "Pemilih simbol berisi kesalahan, perbaiki sebelum menerapkan.",
+  "sortLabel": "Urutkan",
+  "ascRadioBtnLabel": "Naik",
+  "descRadioBtnLabel": "Turun"
 });

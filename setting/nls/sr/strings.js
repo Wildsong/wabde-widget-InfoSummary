@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Prikaži sve geoobjekte",
   "fieldsWarning": "Nema definisanih polja u iskačućem prozoru. Opciono: koristite radnju uređivanja da biste definisali opcije prikaza tabele.",
   "displayClusterLayer": "Sačuvaj simbole klastera nakon zatvaranja vidžeta",
-  "invalidSymbolWidthMessage": "Birač simbola ima grešku, popravite pre primene."
+  "invalidSymbolWidthMessage": "Birač simbola ima grešku, popravite pre primene.",
+  "sortLabel": "Sortiraj",
+  "ascRadioBtnLabel": "Rastuće",
+  "descRadioBtnLabel": "Opadajuće"
 });

@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Mostra tutte le feature",
   "fieldsWarning": "Nessun campo definito nel popup. Optional: impiegare l'azione Modifica per definire le opzioni di visualizzazione del pannello.",
   "displayClusterLayer": "Mantenere i simboli cluster dopo aver chiuso il Widget",
-  "invalidSymbolWidthMessage": "Il simbolo cluster contiene errori, correggerli prima di applicarlo."
+  "invalidSymbolWidthMessage": "Il simbolo cluster contiene errori, correggerli prima di applicarlo.",
+  "sortLabel": "Ordina",
+  "ascRadioBtnLabel": "Crescente",
+  "descRadioBtnLabel": "Decrescente"
 });

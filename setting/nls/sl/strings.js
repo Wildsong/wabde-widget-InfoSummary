@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Prikaži vse geoobjekte",
   "fieldsWarning": "V pojavnem oknu ni določenih polj. Izbirno: Uporabi urejanje za določanje možnosti prikaza plošče.",
   "displayClusterLayer": "Ohrani simbole gruč po zaprtju pripomočka",
-  "invalidSymbolWidthMessage": "Izbirnik simbolov vsebuje napako. Popravite pred uporabo."
+  "invalidSymbolWidthMessage": "Izbirnik simbolov vsebuje napako. Popravite pred uporabo.",
+  "sortLabel": "Razvrsti",
+  "ascRadioBtnLabel": "Naraščajoče",
+  "descRadioBtnLabel": "Padajoče"
 });

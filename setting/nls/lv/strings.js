@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Rādīt visus elementus",
   "fieldsWarning": "Uznirstošajā lodziņā nav definēti lauki. Papildiespēja: izmantojiet rediģēšanas darbību, lai definētu paneļa rādīšanas opcijas.",
   "displayClusterLayer": "Saglabāt klastera simbolus pēc logrīka aizvēršanas",
-  "invalidSymbolWidthMessage": "Simbolu izvēlē ir kļūda. Pirms lietošanas novērsiet kļūdas."
+  "invalidSymbolWidthMessage": "Simbolu izvēlē ir kļūda. Pirms lietošanas novērsiet kļūdas.",
+  "sortLabel": "Kārtot",
+  "ascRadioBtnLabel": "Augošā secībā",
+  "descRadioBtnLabel": "Dilstošā secībā"
 });

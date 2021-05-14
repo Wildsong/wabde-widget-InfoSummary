@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "모든 피처 보기",
   "fieldsWarning": "팝업에 정의된 필드가 없습니다. 선택: 패널 디스플레이 옵션을 정의하려면 편집 작업을 사용합니다.",
   "displayClusterLayer": "위젯을 닫은 후 군집 심볼 유지",
-  "invalidSymbolWidthMessage": "심볼 선택기에 오류가 포함되어 있습니다. 오류를 수정한 후에 적용하세요."
+  "invalidSymbolWidthMessage": "심볼 선택기에 오류가 포함되어 있습니다. 오류를 수정한 후에 적용하세요.",
+  "sortLabel": "정렬",
+  "ascRadioBtnLabel": "오름차순",
+  "descRadioBtnLabel": "내림차순"
 });

@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "显示所有要素",
   "fieldsWarning": "弹出窗口中未定义任何字段。可选：使用编辑操作可定义面板显示选项。",
   "displayClusterLayer": "关闭微件后保留聚类符号",
-  "invalidSymbolWidthMessage": "符号选择器包含错误，请在应用前修正。"
+  "invalidSymbolWidthMessage": "符号选择器包含错误，请在应用前修正。",
+  "sortLabel": "排序",
+  "ascRadioBtnLabel": "升序",
+  "descRadioBtnLabel": "降序"
 });

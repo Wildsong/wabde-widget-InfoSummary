@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Vis alle objekter",
   "fieldsWarning": "Ingen felter defineret i pop-up. Valgfrit: Brug redigeringshandling til at definere panelvisningsindstillinger.",
   "displayClusterLayer": "Bevar klyngesymboler efter widget er lukket",
-  "invalidSymbolWidthMessage": "Symbolvælgeren indeholder fejl. Ret dem, før den tages i brug."
+  "invalidSymbolWidthMessage": "Symbolvælgeren indeholder fejl. Ret dem, før den tages i brug.",
+  "sortLabel": "Sortering",
+  "ascRadioBtnLabel": "Stigende",
+  "descRadioBtnLabel": "Faldende"
 });

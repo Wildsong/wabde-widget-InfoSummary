@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Rodyti visus elementus",
   "fieldsWarning": "Iššokančiame lange laukai neapibrėžti. Neprivaloma: naudodami redagavimo veiksmą apibrėžkite skydelio rodymo parinktis.",
   "displayClusterLayer": "Išsaugoti grupės simbolius uždarius valdiklį",
-  "invalidSymbolWidthMessage": "Simbolio parinkiklyje yra klaida. Prieš taikydami, ištaisykite klaidą."
+  "invalidSymbolWidthMessage": "Simbolio parinkiklyje yra klaida. Prieš taikydami, ištaisykite klaidą.",
+  "sortLabel": "Rūšiuoti",
+  "ascRadioBtnLabel": "Didėjimo tvarka",
+  "descRadioBtnLabel": "Mažėjimo tvarka"
 });

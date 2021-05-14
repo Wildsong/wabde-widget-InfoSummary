@@ -58,5 +58,8 @@ define({
   "showAllFeatures": "Zobrazit všechny prvky",
   "fieldsWarning": "Ve vyskakovacím okně nejsou definována žádná pole. Volitelné: Pomocí akce Upravit definujte možnosti zobrazení panelu.",
   "displayClusterLayer": "Zachovat symboly shluků po zavření widgetu",
-  "invalidSymbolWidthMessage": "Výběr symbolů obsahuje chybu. Před použitím ji prosím opravte."
+  "invalidSymbolWidthMessage": "Výběr symbolů obsahuje chybu. Před použitím ji prosím opravte.",
+  "sortLabel": "Seřadit",
+  "ascRadioBtnLabel": "Vzestupně",
+  "descRadioBtnLabel": "Sestupně"
 });
