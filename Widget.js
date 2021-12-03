@@ -925,9 +925,9 @@ function (BaseWidget,
             }
             this._createPanelUI(this.configLayerInfos, operLayerInfos).then(lang.hitch(this, function(){
               this._addFilterChanged(operLayerInfos);
-              this._addVisibleChanged(operLayerInfos);
               this._addZoomChanged(operLayerInfos);
               this._setVisibleSubLayers();
+              this._addVisibleChanged(operLayerInfos);
             }));
           }));
       }
